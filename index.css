@@ -1,0 +1,50 @@
+*{
+	margin: 0;
+	padding: 0;
+	line-height: 0;
+
+	box-sizing: border-box;
+}
+header{
+	display: flex;
+	height: 100px;
+	background: beige;
+
+	justify-content: center;
+
+
+}
+
+.game_fill{
+	display: flex;
+	max-width: 660px;
+	max-height: 660px;
+
+	min-width: 660px;
+	min-height: 660px;
+
+	flex-wrap: wrap;
+
+	margin: auto;
+
+}
+.item{
+	background-color: red;
+	margin: 5px;
+	width: 200px;
+	height: 200px;
+}
+.counter{
+	display: flex;
+	font-size: 30px;
+	color: red;
+
+	margin: auto;
+}
+.score{
+	display: flex;
+	font-size: 30px;
+	color: red;
+
+	margin: auto;
+}
